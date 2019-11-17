@@ -25,6 +25,7 @@ def _remove_domain(entity_id):
         return None
     return slugify(parts[-1].lower())
 
+
 def _get_entity_id(domain, entity):
     return "%s.%s" % (domain.lower(), entity.lower)
 
