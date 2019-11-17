@@ -1,0 +1,12 @@
+{
+  "domain": "reverse_geocode",
+  "name": "Reverse Geocode",
+  "documentation": "https://github.com/constructorfleet/HomeAssistant-Component-ReverseGeocode",
+  "dependencies": [
+    "geocoder==1.38.1"
+  ],
+  "codeowners": [
+  	"Teagan42"
+  ],
+  "requirements": []
+}
